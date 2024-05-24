@@ -1,0 +1,32 @@
+name: 'pheno_environment_fish'
+
+metadata:
+  description: 'Mapping file from ZFIN Environment to ZECO ID'
+
+format: 'csv'
+
+delimiter: '\t'
+
+#  https://raw.githubusercontent.com/obophenotype/zebrafish-phenotype-ontology/master/src/curation/id_map_zfin.tsv
+files:
+  - './data/pheno_environment_fish.txt'
+
+header: none
+
+columns:
+  - 'Environment ID'
+  - 'ZECO Term Name'
+  - 'ZECO Term ID (ZECO:ID)'
+  - 'Chebi Term Name'
+  - 'Chebi Term ID (Chebi:ID)'
+  - 'ZFA Term Name'
+  - 'ZFA Term ID (ZFA:ID)'
+  - 'Affected Structure Subterm Name'
+  - 'Affected Structure Subterm ID (GO-CC:ID)'
+  - 'NCBI Taxon Name'
+  - 'NCBI Taxon ID (NCBI Taxon:ID)'
+
+key: 'Environment ID'
+
+values:
+  - 'ZECO Term ID (ZECO:ID)'
