@@ -12,7 +12,7 @@
       "__project_url": "https://github.com/monarch-initiative/zfin-genotype-to-phenotype-ingest",
       "ingest_source": "https://zfin.org/downloads",
       "ingest_type": "genotype_to_phenotype",
-      "__ingest_name": "https://zfin.org/downloads_genotype_to_phenotype",
+      "__ingest_name": "zfin_genotype_to_phenotype",
       "min_python_version": "3.10",
       "full_name": "Aaron Odell",
       "email": "aaron@tislab.org",

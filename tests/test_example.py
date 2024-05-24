@@ -13,7 +13,7 @@ import pytest
 from koza.utils.testing_utils import mock_koza
 
 # Define the ingest name and transform script path
-INGEST_NAME = "https://zfin.org/downloads_genotype_to_phenotype"
+INGEST_NAME = "zfin_genotype_to_phenotype"
 TRANSFORM_SCRIPT = "./src/zfin_genotype_to_phenotype_ingest/transform.py"
 
 

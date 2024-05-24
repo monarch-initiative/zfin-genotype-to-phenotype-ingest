@@ -3,7 +3,7 @@
 # See metadata properties at https://koza.monarchinitiative.org/Ingests/source_config/
 
 id:  'CURIE for the project'
-name: 'https://zfin.org/downloads_genotype_to_phenotype'
+name: 'zfin_genotype_to_phenotype'
 ingest_title: 'zfin_genotype_to_phenotype_ingest'
 ingest_url: 'https://github.com/monarch-initiative/zfin-genotype-to-phenotype-ingest'
 description: 'Zebrafish genotype to phenotype ingest'
