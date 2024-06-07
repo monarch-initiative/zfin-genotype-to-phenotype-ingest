@@ -50,7 +50,7 @@ while (row := koza_app.get_row()) is not None:
         
     
     association = GenotypeToPhenotypicFeatureAssociation(id=str(uuid.uuid1()),
-                                                        subject=row["Fish ID"],
+                                                        subject="ZFIN:" + row["Fish ID"],
                                                         predicate="biolink:has_phenotype",
                                                         object=zp_term,
                                                         publications=[row["Publication ID"]],
