@@ -48,12 +48,15 @@ while (row := koza_app.get_row()) is not None:
     else:
         seen_records.update({key:''})
         
-    
+    if row["Publication ID"]:
+        publication_id = "ZFIN:" + row["Publication ID"]
+    else:
+        publication_id = None
     association = GenotypeToPhenotypicFeatureAssociation(id=str(uuid.uuid1()),
                                                         subject="ZFIN:" + row["Fish ID"],
                                                         predicate="biolink:has_phenotype",
                                                         object=zp_term,
-                                                        publications=[row["Publication ID"]],
+                                                        publications=[publication_id],
                                                         aggregator_knowledge_source=["infores:monarchinitiative"],
                                                         primary_knowledge_source="infores:zfin",
                                                         knowledge_level=KnowledgeLevelEnum.knowledge_assertion,
