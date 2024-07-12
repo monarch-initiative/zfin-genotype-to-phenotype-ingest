@@ -10,6 +10,7 @@ files:
 depends_on:
   - './src/zfin_genotype_to_phenotype_ingest/eqe2zp.yaml'
   - './src/zfin_genotype_to_phenotype_ingest/pheno_environment_fish.yaml'
+  - './src/zfin_genotype_to_phenotype_ingest/pub2pubmed.yaml'
 
 edge_properties:
   # List of edge properties to include if ingesting edges

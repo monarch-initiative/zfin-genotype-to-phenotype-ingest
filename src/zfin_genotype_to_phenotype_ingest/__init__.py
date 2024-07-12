@@ -1,4 +1,5 @@
 """zfin-genotype-to-phenotype-ingest package."""
+
 import importlib_metadata
 
 try:
