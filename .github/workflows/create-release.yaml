@@ -7,10 +7,11 @@
 
 name: Create Release
 
-# run weekly on wednesdays
+# run weekly on wednesdays, or when run manually
 on:
     schedule:
         - cron: '0 0 * * 3'
+    workflow_dispatch:
 
 jobs:
   create-release:
@@ -50,4 +51,3 @@ jobs:
           files: |
             output/*
           generate_release_notes: true
-          draft: true
