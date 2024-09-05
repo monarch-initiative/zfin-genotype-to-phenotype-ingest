@@ -7,10 +7,10 @@
 
 name: Create Release
 
+# run weekly on wednesdays
 on:
-  workflow_dispatch:
-  # schedule:
-  #   - cron: '0 0 * * 0'
+    schedule:
+        - cron: '0 0 * * 3'
 
 jobs:
   create-release:
