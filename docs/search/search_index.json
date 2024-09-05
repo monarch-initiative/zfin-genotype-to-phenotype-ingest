@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"zfin-genotype-to-phenotype-ingest Report","text":""}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"zfin-genotype-to-phenotype-ingest Report","text":""},{"location":"#edges-report","title":"Edges Report","text":"category subject_prefix predicate object_prefix count_star() biolink:GenotypeToPhenotypicFeatureAssociation ZFIN biolink:has_phenotype ZP 134692"}]}
