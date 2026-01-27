@@ -1,5 +1,7 @@
 # zfin-genotype-to-phenotype-ingest
 
+> **DEPRECATED**: This repository has been consolidated into [zfin-ingest](https://github.com/monarch-initiative/zfin-ingest). Please use that repository for future development and releases.
+
 | [Documentation](https://monarch-initiative.github.io/zfin-genotype-to-phenotype-ingest) |
 
 Zebrafish genotype to phenotype ingest
