@@ -1,0 +1,11 @@
+_commit: fe21eee73f47a659640e02590a3d72ca82f2ca35
+_src_path: cookiecutter-monarch-ingest
+copyright_year: '2026'
+email: info@monarchinitiative.org
+full_name: Monarch Initiative
+github_handle: monarch-initiative
+github_org: monarch-initiative
+license: MIT
+project_description: Zebrafish genotype to phenotype ingest
+project_name: zfin-genotype-to-phenotype-ingest
+project_slug: zfin_genotype_to_phenotype_ingest
