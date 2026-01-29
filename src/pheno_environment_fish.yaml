@@ -1,0 +1,27 @@
+name: "pheno_environment_fish"
+
+reader:
+  name: "pheno_environment_fish_reader"
+  files:
+    - "../data/pheno_environment_fish.txt"
+  format: "csv"
+  delimiter: "\t"
+  header: none
+  columns:
+    - "Environment ID"
+    - "ZECO Term Name"
+    - "ZECO Term ID (ZECO:ID)"
+    - "Chebi Term Name"
+    - "Chebi Term ID (Chebi:ID)"
+    - "ZFA Term Name"
+    - "ZFA Term ID (ZFA:ID)"
+    - "Affected Structure Subterm Name"
+    - "Affected Structure Subterm ID (GO-CC:ID)"
+    - "NCBI Taxon Name"
+    - "NCBI Taxon ID (NCBI Taxon:ID)"
+
+transform:
+  name: "pheno_environment_fish_transform"
+  key: "Environment ID"
+  values:
+    - "ZECO Term ID (ZECO:ID)"

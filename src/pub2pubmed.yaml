@@ -1,0 +1,18 @@
+name: "pub2pubmed"
+
+reader:
+  name: "pub2pubmed_reader"
+  files:
+    - "../data/pub_to_pubmed_id_translation.txt"
+  format: "csv"
+  delimiter: "\t"
+  header: none
+  columns:
+    - "pub"
+    - "pubmed"
+
+transform:
+  name: "pub2pubmed_transform"
+  key: "pub"
+  values:
+    - "pubmed"
